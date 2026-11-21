@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 625" width="100%" height="100%">
+  <defs>
+    <!-- Warm Dark Background Gradient -->
+    <linearGradient id="warmDarkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1914"/>
+      <stop offset="50%" stop-color="#14100D"/>
+      <stop offset="100%" stop-color="#0E0C0A"/>
+    </linearGradient>
+
+    <!-- Amber Lighting Gradient -->
+    <radialGradient id="amberGlow" cx="65%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#E9AE4A" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#E9AE4A" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#E9AE4A" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="amberLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E9AE4A"/>
+      <stop offset="100%" stop-color="#F3BE65"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="500" height="625" fill="url(#warmDarkBg)"/>
+  <rect width="500" height="625" fill="url(#amberGlow)"/>
+
+  <!-- Subtle Film & Camera Framing Lines -->
+  <line x1="40" y1="40" x2="100" y2="40" stroke="#E9AE4A" stroke-width="1.5" opacity="0.6"/>
+  <line x1="40" y1="40" x2="40" y2="100" stroke="#E9AE4A" stroke-width="1.5" opacity="0.6"/>
+  <line x1="460" y1="585" x2="400" y2="585" stroke="#E9AE4A" stroke-width="1.5" opacity="0.6"/>
+  <line x1="460" y1="585" x2="460" y2="525" stroke="#E9AE4A" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Rule of Thirds Crosshairs -->
+  <circle cx="166" cy="208" r="2.5" fill="#E9AE4A" opacity="0.5"/>
+  <circle cx="333" cy="208" r="2.5" fill="#E9AE4A" opacity="0.5"/>
+  <circle cx="166" cy="416" r="2.5" fill="#E9AE4A" opacity="0.5"/>
+  <circle cx="333" cy="416" r="2.5" fill="#E9AE4A" opacity="0.5"/>
+
+  <!-- Stylized Cinematic Silhouette of Video Director / Editor -->
+  <g transform="translate(250, 310)">
+    <!-- Back Light Aura -->
+    <ellipse cx="0" cy="-30" rx="130" ry="150" fill="#E9AE4A" opacity="0.08"/>
+
+    <!-- Head & Hair Silhouette -->
+    <path d="M-65,-120 C-65,-175 -35,-205 0,-205 C35,-205 65,-175 65,-120 C65,-75 45,-50 35,-35 C20,-20 -20,-20 -35,-35 C-45,-50 -65,-75 -65,-120 Z" fill="#221C16" stroke="#3A3026" stroke-width="2"/>
+    
+    <!-- Headphones / Studio Monitor Cans -->
+    <path d="M-72,-135 C-78,-135 -84,-120 -84,-95 C-84,-70 -78,-55 -72,-55 Z" fill="#E9AE4A" opacity="0.85"/>
+    <path d="M72,-135 C78,-135 84,-120 84,-95 C84,-70 78,-55 72,-55 Z" fill="#E9AE4A" opacity="0.85"/>
+    <path d="M-76,-130 C-76,-195 76,-195 76,-130" fill="none" stroke="#E9AE4A" stroke-width="4" opacity="0.8"/>
+
+    <!-- Jaw & Neck -->
+    <path d="M-28,-35 L-24,35 L24,35 L28,-35 Z" fill="#1C1712"/>
+
+    <!-- Shoulders & Torso -->
+    <path d="M-130,190 C-130,85 -60,40 -20,38 L20,38 C60,40 130,85 130,190 L-130,190 Z" fill="#18130E" stroke="#2D2319" stroke-width="1.5"/>
+  </g>
+
+  <!-- Cinema Viewfinder Text Overlays in Monospace -->
+  <text x="50" y="80" fill="#E9AE4A" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="1">REC ● 4K 24FPS</text>
+  <text x="350" y="80" fill="#9A938A" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="1">RAW LOG</text>
+  <text x="50" y="565" fill="#9A938A" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="1">DAKSH VYAS</text>
+  <text x="345" y="565" fill="#E9AE4A" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="1">DIRECTOR'S CUT</text>
+</svg>
